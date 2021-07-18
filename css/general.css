@@ -1,5 +1,27 @@
+* {margin:0; padding:0}
+
 body{
     margin: 0;
     font-family: Helvetica;
     padding-top: 340px;
   }
+
+nav,ol,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: inherit;
+	display: flex;
+}
+
+
+.wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+
+
+.container {
+    border : 1px solid gray;
+}

@@ -7,7 +7,7 @@ header{
     background-color: blue;
     z-index: 10;
     display:grid;
-    grid-template-columns: minmax(85px,1fr) minmax(400px, 1024px) 1fr;
+    grid-template-columns: 85px 1fr minmax(500px, 1fr);
     grid-template-rows: 100%;
 }
 
@@ -41,4 +41,32 @@ header{
     margin: 0;
     overflow:hidden;
     z-index: 40;
+  }
+
+.menu{
+    color: white;
+}
+
+a {
+	border: 1px solid;
+	padding: 7px 20px;
+	text-decoration: none;
+	color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.header-item:nth-of-type(2){
+    background: whitesmoke;        -webkit-text-fill-color: white;        -webkit-text-stroke: 1.5px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+  }
+
+.header-item:nth-of-type(3){
+    background: rgb(174, 0, 255);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
